@@ -1,0 +1,139 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* STARTchanged foundation background pricing table titile */
+
+.pricing-table .title {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* END changed foundation background pricing table titile */
+
+
+/* START changed foundation background menu (hover and not)*/
+.top-bar-section ul li:hover:not(.has-form) > a {
+      background-color: #008cba;
+      background: transparent;   
+}
+.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button){
+	background: transparent;
+	font-family: 'Montserrat', sans-serif !important;
+}
+      .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
+        background:  transparent; }
+      .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
+        background: transparent; }
+
+.top-bar.expanded .title-area, .contain-to-grid, .top-bar, .top-bar-section ul, .top-bar-section ul li, .top-bar-section li:not(.has-form) a:not(.button), .top-bar-section .dropdown li a, .top-bar-section .dropdown li:not(.has-form) a:not(.button), .top-bar-section li:not(.has-form) a:not(.button):hover, .top-bar-section .dropdown li a{
+  background:transparent;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 641px) {
+.top-bar.expanded .title-area, .contain-to-grid, .top-bar, .top-bar-section ul, .top-bar-section ul li, .top-bar-section li:not(.has-form) a:not(.button), .top-bar-section .dropdown li a, .top-bar-section .dropdown li:not(.has-form) a:not(.button), .top-bar-section li:not(.has-form) a:not(.button):hover, .top-bar-section .dropdown li a{
+  color: black;
+}
+.top-bar-section ul li > a {
+  text-align: center;
+}
+.top-bar .name  a {
+  padding-top: 50px; 
+  padding-left: 20px;
+  text-align: left !important;
+  border-bottom: none !important;
+  color: black !important;
+  font-size: 2em;
+}
+}
+
+/* END changed foundation background pricing table titile */
+
+.top-bar-section ul li > a{
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.top-bar .name  a {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  border-bottom: solid 0.2rem #fff;
+}
+.row .example-orbit img {
+  min-width: 100%;
+  height: auto;
+}
+
+.orbit-slide-number{
+	visibility: hidden;
+}
+
+
+::selection {
+    color: #008cba; 
+    background: white;
+}
+::-moz-selection{ /* Code for Firefox */
+    color: #008cba; 
+    background: white;
+}
+
+.row.orbit{
+	min-width:100% !important;
+}
+
+.homepage-hero{
+  background: url("../img/scrivania.jpg") no-repeat center center; /*fixed for parallax*/ 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-height: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  min-width: 100%;
+  letter-spacing: 1px;
+  margin-top: 0;
+  position:  relative; 
+  top: -50px;
+  @media #{$small-only} {
+    background-position: center;
+  }
+}
+@media only screen and (max-width: 641px) {
+  .homepage-hero{
+  background: url("../img/scrivania.jpg") no-repeat center center; /*fixed for parallax*/ 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-height: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  min-width: 100%;
+  letter-spacing: 1px;
+  margin-top: 0;
+  position:  relative; 
+  top: -100px;
+}
+}
+
+.homepage-hero h2 {
+  color: white;
+  font-size: 3em;
+}
+.homepage-hero h3{
+  color: white;
+  font-size: 2em;
+}
+.homepage-hero h4{
+  color: white;
+  font-size: 24px;
+  font-style: italic;
+
+}
+
+
+
