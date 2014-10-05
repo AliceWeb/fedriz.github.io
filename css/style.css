@@ -1,24 +1,75 @@
-body{
-	font-family: 'Montserrat', sans-serif;
+/* Typography */
+
+html{
+	font-family: 'Roboto', sans-serif;
 }
 
-/* STARTchanged foundation background pricing table titile */
+.homepage-hero h2 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 7rem;
+  font-style: bold;
+  font-weight: 900;
 
-.pricing-table .title {
-	font-family: 'Montserrat', sans-serif;
+}
+.homepage-hero h3{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 6rem;
+  font-style: ;
+  font-weight: 400;
+}
+.homepage-hero h4{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 4rem;
+  font-style: italic;
+  font-weight: 100;
+
+}
+@media only screen and (max-width: 641px) {
+
+.homepage-hero h2 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 3.5rem;
+  font-style: bold;
+  font-weight: 900;
+
+}
+.homepage-hero h3{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 3rem;
+  font-style: ;
+  font-weight: 400;
+}
+.homepage-hero h4{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 2.5rem;
+  font-style: italic;
+  font-weight: 100;
+
+}
 }
 
-/* END changed foundation background pricing table titile */
+/* End Typography */
 
+.linkbutton{
+  font-family: 'Roboto', sans-serif;
+  color:white;
+  background-color: rgb(33,150,243, 0.5);
+  font-size: 1.5rem;
+  font-weight: 100; 
+}
 
 /* START changed foundation background menu (hover and not)*/
 .top-bar-section ul li:hover:not(.has-form) > a {
-      background-color: #008cba;
       background: transparent;   
 }
 .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button){
 	background: transparent;
-	font-family: 'Montserrat', sans-serif !important;
 }
       .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
         background:  transparent; }
@@ -33,29 +84,51 @@ body{
 
 @media only screen and (max-width: 641px) {
 .top-bar.expanded .title-area, .contain-to-grid, .top-bar, .top-bar-section ul, .top-bar-section ul li, .top-bar-section li:not(.has-form) a:not(.button), .top-bar-section .dropdown li a, .top-bar-section .dropdown li:not(.has-form) a:not(.button), .top-bar-section li:not(.has-form) a:not(.button):hover, .top-bar-section .dropdown li a{
-  color: black;
+  color: white;
+  font-family: 'Roboto', sans-serif;
 }
 .top-bar-section ul li > a {
+  font-family: 'Roboto', sans-serif;
   text-align: center;
+  border-bottom: solid 0.1rem #fff;
+
 }
 .top-bar .name  a {
-  padding-top: 50px; 
-  padding-left: 20px;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 10px; 
+  margin-left: 40px;
   text-align: left !important;
   border-bottom: none !important;
-  color: black !important;
+  color: white !important;
   font-size: 2em;
 }
+.paddingintro{
+  padding-top: 90px;
+}
+
+.gufohome{
+  display: none;
+}
+
+}
+
+.gufohome{
+  width: 40%;
+  position: absolute;
+  margin-left: 60%;
+}
+
+.paddingintro{
+  padding-top: 70px;
 }
 
 /* END changed foundation background pricing table titile */
 
 .top-bar-section ul li > a{
-  font-family: 'Montserrat', sans-serif !important;
 }
 
 .top-bar .name  a {
-	font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 	color: white;
   font-size: 1.2rem;
   letter-spacing: 2px;
@@ -72,11 +145,11 @@ body{
 
 
 ::selection {
-    color: #008cba; 
+    color: #1278bf; 
     background: white;
 }
 ::-moz-selection{ /* Code for Firefox */
-    color: #008cba; 
+    color: #1278bf; 
     background: white;
 }
 
@@ -120,19 +193,12 @@ body{
 }
 }
 
-.homepage-hero h2 {
-  color: white;
-  font-size: 3em;
+.footer{
+  background: #2196f3;
+  color: #fff;
 }
-.homepage-hero h3{
-  color: white;
-  font-size: 2em;
-}
-.homepage-hero h4{
-  color: white;
-  font-size: 24px;
-  font-style: italic;
-
+.footer a{
+  color: #fff;
 }
 
 
