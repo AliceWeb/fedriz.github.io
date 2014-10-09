@@ -4,35 +4,11 @@ html{
 	font-family: 'Roboto', sans-serif;
 }
 
-.homepage-hero h2 {
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  font-size: 7rem;
-  font-style: bold;
-  font-weight: 900;
-
-}
-.homepage-hero h3{
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  font-size: 6rem;
-  font-style: ;
-  font-weight: 400;
-}
-.homepage-hero h4{
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  font-size: 4rem;
-  font-style: italic;
-  font-weight: 100;
-
-}
-@media only screen and (max-width: 641px) {
 
 .homepage-hero h2 {
   font-family: 'Roboto', sans-serif;
   color: white;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-style: bold;
   font-weight: 900;
 
@@ -47,11 +23,37 @@ html{
 .homepage-hero h4{
   font-family: 'Roboto', sans-serif;
   color: white;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-style: italic;
   font-weight: 100;
 
 }
+@media only screen and (min-width: 641px) {
+
+.homepage-hero h2 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 6rem;
+  font-style: bold;
+  font-weight: 900;
+
+}
+.homepage-hero h3{
+  font-family: 'Lobster', cursive;
+  color: white;
+  font-size: 6rem;
+  font-style: ;
+  /*font-weight: 400;*/
+}
+.homepage-hero h4{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 4rem;
+  font-style: italic;
+  font-weight: 100;
+
+}
+
 }
 
 /* End Typography */
@@ -61,7 +63,9 @@ html{
   color:white;
   background-color: rgb(33,150,243, 0.5);
   font-size: 1.5rem;
-  font-weight: 100; 
+  font-weight: 100;
+  font-style: italic;
+  border-radius: 30px; 
 }
 
 /* START changed foundation background menu (hover and not)*/
@@ -82,17 +86,7 @@ html{
   letter-spacing: 2px;
 }
 
-@media only screen and (max-width: 641px) {
-.top-bar.expanded .title-area, .contain-to-grid, .top-bar, .top-bar-section ul, .top-bar-section ul li, .top-bar-section li:not(.has-form) a:not(.button), .top-bar-section .dropdown li a, .top-bar-section .dropdown li:not(.has-form) a:not(.button), .top-bar-section li:not(.has-form) a:not(.button):hover, .top-bar-section .dropdown li a{
-  color: white;
-  font-family: 'Roboto', sans-serif;
-}
-.top-bar-section ul li > a {
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  border-bottom: solid 0.1rem #fff;
 
-}
 .top-bar .name  a {
   font-family: 'Roboto', sans-serif;
   padding-top: 10px; 
@@ -175,9 +169,10 @@ html{
     background-position: center;
   }
 }
-@media only screen and (max-width: 641px) {
+@media only screen and (min-width: 641px) {
   .homepage-hero{
   background: url("../img/scrivania.jpg") no-repeat center center; /*fixed for parallax*/ 
+  background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -189,10 +184,13 @@ html{
   letter-spacing: 1px;
   margin-top: 0;
   position:  relative; 
-  top: -100px;
-}
+  top: -50px;
 }
 
+li .name img{
+  display: none;
+}
+}
 .footer{
   background: #2196f3;
   color: #fff;
