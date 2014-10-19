@@ -206,7 +206,7 @@ li .name img{
 }
 .vocemenu{
    margin-top: 15%;
-   border: 5px solid white;
+   border: 3px solid white;
 }
 .vocemenu:hover{
   background-color: rgba(33,150,243, 0.5) !important;
@@ -224,9 +224,9 @@ li .name img{
   font-size: 2rem;
 }
 .vocemenu{
-   margin-top: 15%;
-   border-bottom: 5px solid white;
-   border-top: 5px solid white;
+   margin-top: 20%;
+   border-bottom: 3px solid white;
+   border-top: 3px solid white;
 
 }
 .vocemenu:hover{
